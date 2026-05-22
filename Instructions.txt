@@ -1,0 +1,32 @@
+TASTYBITES - RUN INSTRUCTIONS
+=============================
+
+1. Open Android Studio
+2. Click "Open" → Select the "TastyBites" folder
+3. Wait for Gradle sync (may take 1–2 minutes)
+4. Connect Android device OR start emulator
+5. Click Run (green play button)
+
+REQUIREMENTS:
+- Internet connection (for APIs)
+- Spoonacular API Key:
+   → Open Constants.java
+   → Replace: public static final String SPOONACULAR_API_KEY = "your_key_here";
+
+APIs USED:
+- Spoonacular: Recipe search & images
+- USDA FoodData Central: Nutrition facts (no key needed)
+
+NO INTERNET?
+→ App shows dummy data automatically
+
+TEST FLOW:
+1. Click "Search Recipes"
+2. Type "chicken" → Search
+3. Click a recipe → View detail
+4. Click "Get Nutrition Info"
+5. Click "Save to Favorites"
+6. Go back → Click "My Favorites"
+
+SUPPORT:
+If images fail to load: Check API key or internet.

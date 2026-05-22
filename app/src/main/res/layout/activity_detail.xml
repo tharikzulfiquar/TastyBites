@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Recipe Image -->
+        <ImageView
+            android:id="@+id/ivDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_cooking" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:layout_marginTop="16dp" />
+
+        <!-- Cooking Time -->
+        <TextView
+            android:id="@+id/tvDetailTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 minutes"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp" />
+
+        <!-- Nutrition Button -->
+        <Button
+            android:id="@+id/btnGetNutrition"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Get Nutrition Info"
+            android:textSize="16sp"
+            android:backgroundTint="#FF9800"
+            android:layout_marginTop="24dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save to Favorites"
+            android:textSize="16sp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
